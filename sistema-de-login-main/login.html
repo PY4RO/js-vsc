@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="login.css">
+    <meta charset="UTF-8">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de login</title>
+</head>
+<body>
+    <div> 
+        <form >
+            <div class="body-login">
+            <h2>LOGIN </h2>
+            <div id="msg-error">You did not enter the necessary validations for login, please try again !</div>
+            <label class="users" for="user">user :</label>
+            <input type="text" id="user"  value="aaaa"><br>
+            <label for="passwd">password :</label>
+            <span id="visiblepasswd" class="eyes"><i id="passwdblk" class='bx bxs-low-vision'> </i></span><div class="blkV">&#128065;</div>
+            <input type="password" id="passwd" inputmode="numeric" maxlength="8">
+            <label for="checkbox" class="checkbox"><b>Remember-me</b></label>
+            <input type="checkbox" id="checkbox">
+            <h6 class="forgot">Forgot<b> <a href="#">Password</a></b></h6>
+            <input type="submit"value="LOGIN" id="login">
+        <p class="register">Don't have account? <a href="#"><b>Register</b> </a></p>
+              
+
+
+
+            </form>
+    </div>
+    <script src="login.js " defer></script>
+</body>
+</html>
+<!-- 
+
+&#128065;
+<div class="x-toggle">X</div> -->

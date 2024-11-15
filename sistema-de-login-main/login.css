@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap');
+*{
+    scrollbar-width: none;
+    user-select:none;
+  
+}
+body{
+
+    font-family:"Ojuju",sans-serif;
+    background-image: url("bk.jpg");
+    background-repeat: no-repeat;
+
+ 
+}
+.body-login{
+    position: relative;
+    left: 650px;
+    bottom:-100px;
+    border:transparent;
+    width:200px;
+    height: 400px;
+    text-align: center;
+    
+    border-radius:50px;
+    
+}
+input{
+    display: flex;
+ position: relative;
+ left: 20px;
+}
+h2{
+    position: relative;
+  
+}
+label{
+    color: black;
+    font-size: 20px;
+    position: relative;
+    left: -20px;
+
+}
+
+#login {
+position: relative;
+left: 30px;
+top: 100px;
+border:transparent ;
+border-width:20px ;
+border-radius: 200px;
+width: 150px;
+height: 40px;
+transition:0.7s all;
+cursor:pointer;
+}
+#login:hover{
+    background-color:#29ab87
+}
+.eyes{
+    position: relative;
+    left:30px;
+    top:23px;
+    z-index:1;
+    cursor:pointer;
+    font-size: 13px;
+    color:black;
+}
+.checkbox{
+    font-size: 10.72px;
+    position: absolute;
+    left: 40px;
+    color: white;
+    cursor:pointer;
+}
+.register{
+    color: white;
+    position: absolute;
+    bottom: -80px;
+    right: -25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h6{
+    position: relative;
+    left: 60px;
+    top:-40.75px;
+    color :white;
+}
+#msg-error{
+position:relative;
+left:-200px;
+width: 620px;
+border: solid #b80f0a;
+color:#b80f0a;
+font-size: 0.8rem;
+padding:10px;
+text-align: center;
+background-color:#fa8072;
+display: none;
+
+
+
+}
+.x-toggle{
+position: absolute;
+right:1px;
+top:2px;
+cursor:pointer;
+}
+.users{
+    position: relative;
+    left: -50px;
+}
+#msg-error.delcineMsg-error{
+    display: none;
+}
+.blkV{
+    position:absolute;
+    left: 169px;
+    z-index: 1;
+    display:none;
+}
